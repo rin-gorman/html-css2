@@ -3,5 +3,16 @@ body {
     background-color:beige;
     color:indianred;
     font-size: 1.2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+hr {
+    width:30%;
+    height:3px;
+    border:none;
+    border-radius:10px;
+    background-color:indianred;
 }
 
