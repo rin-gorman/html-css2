@@ -1,11 +1,11 @@
-.centered {
+.center {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:beige;
     color:indianred;
     font-size: 1.2rem;
-    display:flex;
-    justify-content:center;
-    flex-direction:column;
+    display:block;
+    margin:auto;
+    text-align:center;
 }
 
 hr {
