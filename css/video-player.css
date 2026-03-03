@@ -1,11 +1,8 @@
-.center {
+body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:beige;
     color:indianred;
     font-size: 1.2rem;
-    display:block;
-    margin:auto;
-    text-align:center;
 }
 
 hr {
@@ -13,5 +10,6 @@ hr {
     height:3px;
     border-radius:10px;
     background-color:indianred;
+    margin:auto;
 }
 
