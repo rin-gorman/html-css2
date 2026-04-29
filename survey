@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="css\survey.css">
+  </head>
+
+  <body>
+    <h1 id="title">Favorite Book</h1>
+    <p id="description">Tell us a little more about your favorite book! One lucky respondent will be randomly chosen to attend this year's BookCon, hosted in Minneapolis!</p>
+    <form id="survey-form">
+      <fieldset>
+      <label for="name" id="name-label">Full Name: </label><input id="name" type="text" placeholder="Jane Doe" required>
+      </fieldset>
+
+      <fieldset>
+      <label for="email" id="email-label">Email Address: </label><input id="email" type="email" placeholder="janedoe@email.com" required>
+
+      </fieldset>
+
+      <fieldset>
+        <label for="title" id="title-label">Book Title: </label><input id="title" type="text" required>
+        <label for="author" id="author-label">Author Name: </label><input id="author" type="text" required>
+        </fieldset>
+      <fieldset>
+
+      <label for="number" id="number-label">What year was your favorite book published? <input id="number" type="number" min="0" max="2026" placeholder="2013">
+
+      </fieldset>
+      <fieldset>
+
+      <legend>What genre is your favorite book?</legend>
+      <select id="dropdown">
+          <option value="placeholder">Please choose an option</option>
+          <option value="fiction">Fiction</option>
+          <option value="mystery">Mystery</option>
+          <option value="romance">Romance</option>
+          <option value="scifi">Science-Fiction</option>
+          <option value="fantasy">Fantasy</option>
+        </select>
+        </fieldset>
+
+
+          <fieldset>
+            <legend>What do you enjoy about your favorite book?</legend>
+              <div><input type="checkbox" id="plot" value="plot" class="inline"> <label for="plot" class="inline">The Plot</label></div>
+              <div><input type="checkbox" id="characters" value="characters" class="inline"> <label for="characters" class="inline">The Characters</label></div>
+              <div><input type="checkbox" id="setting" value="setting" class="inline"> <label for="setting" class="inline">The Setting</label></div>
+              <div><input type="checkbox" id="worldbuilding" value="worldbuilding" class="inline"> <label for="worldbuilding" class="inline">The Worldbuilding</label></div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Tell us a little more about why this is your favorite book</legend>
+                <textarea placeholder="This book is so cool!"></textarea>
+              </fieldset>
+
+                    <fieldset>
+          <legend>Do you consent to your contact information being added to the random drawing for a chance to win a trip to BookCon?</legend>
+          <div>
+            <input type="radio" id="yes" name="drawing" value="yes" class="inline" checked> <label for="yes" class="inline">Yes</label></div>
+            <div>
+            <input type="radio" id="no" name="drawing" value="no" class="inline"> <label for="no" class="inline">No</label></div>
+          </fieldset>
+
+          <input type="submit" id="submit" value="Submit!">
+      </form>
+  </body>
+</html>
